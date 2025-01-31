@@ -9,15 +9,8 @@ submit_button.onclick = function show_verse(){
             for(i=start; i>=verse.length; i++){
                 console.log(`${verse[i]}`);
                 console.log(`${i}`);
-            ///if(i==verse.length){
-               //     console.log(`Restart`);
-                 //   for(i=0; i<=verse.length-start; i++){
-                   //     console.log(`${verse[i]}`);
-                    //}
-                    
-               // }
             }
-            
+
         }
         showVerseLoop(start)
         console.log(`False`);
