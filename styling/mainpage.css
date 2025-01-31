@@ -1,0 +1,62 @@
+body {
+    margin: 10%;
+}
+
+.mainpage {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+}
+
+.verse_text,
+#chosen_verse_text,
+#chosen_verse_arrow {
+    margin: 0;
+}
+
+#guess_form {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+
+.side_buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 0.7rem; /* Fixed unit */
+    margin-left: 0.5rem; /* Fixed unit */
+}
+
+#import_button,
+#setting_button,
+#export_button {
+    height: 35px;
+    width: 35px;
+    margin-bottom: 10%;
+}
+
+#play_button,
+#submit_button {
+    height: 30px;
+    width: 80px;
+}
+
+#center_buttons {
+    color: #ff8000;
+    display: block;
+    margin-top: 15px;
+}
+
+#verse_text_wrapper {
+    height: 100px;
+}
+
+#answer_textbox {
+    margin-top: 1px;
+    margin-left: 25px;
+    resize: none;
+    height: 20em;
+    width: 35em;
+}

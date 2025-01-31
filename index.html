@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styling/mainpage.css">
+    <title>Guess The Verse?</title>
+</head>
+<body>
+    <div class="mainpage">
+        <main id="verse_text_wrapper">
+            <p class="verse_text">Previous Verse</p>
+            <h1 id="chosen_verse_text">Guess The Verse!!</h1>
+            <p class="verse_text">Next Verse</p>
+        </main>
+
+        <div class="choice_area">
+            <form id="guess_form">
+                <div id="textarea">
+                    <label for="answer_textbox" hidden>Your Guess:</label>
+                    <textarea name="Your Guess" id="answer_textbox" placeholder="Type your guess here..."></textarea>
+                </div>
+                <div class="side_buttons">
+                    <button type="button" id="setting_button" aria-label="Settings">⚙️</button>
+                    <button type="button" id="import_button" aria-label="Import">⬇️</button>
+                    <button type="button" id="export_button" aria-label="Export">⬆️</button>
+                </div>
+            </form>
+        </div>
+
+        <footer id="center_buttons">
+            <button type="button" id="play_button">Play</button>
+            <button type="submit" form="guess_form" id="submit_button">Submit</button>
+        </footer>
+    </div>
+    <script src="scripts/random_verse.js"></script>
+    <script src="scripts/test.js"></script>
+</body>
+</html>
